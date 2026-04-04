@@ -1,0 +1,10 @@
+[project]
+name = "jobscaper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jobsparser>=0.1.13",
+    "python-jobspy>=1.1.82",
+]

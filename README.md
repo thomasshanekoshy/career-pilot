@@ -1,2 +1,1 @@
-# myresume
-All versions of current resume
+# career-pilot

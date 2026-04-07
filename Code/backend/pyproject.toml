@@ -1,0 +1,17 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "FastAPI and CrewAI Backend for Career Artifacts"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0.0",
+    "pandera>=0.20.0",
+    "fastapi>=0.110.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-mock>=3.14.0",
+    "httpx>=0.27.0"
+]
